@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="skin.css">
+  <style>
+    body{
+      font-family: Georgia, 'Times New Roman', serif;
+      color:#111;
+      padding:28px;
+      max-width:900px;
+      margin:0 auto;
+    }
+    header h1{
+      font-size:36px;
+      margin:0 0 6px 0;
+    }
+    h2{
+      font-size:24px;
+      margin:22px 0 8px 0;
+    }
+    .bio{
+      display:flex;
+      gap:18px;
+      align-items:flex-start;
+    }
+    .photo{
+      width:120px;
+      height:140px;
+      background:#eee;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#888;
+      font-size:14px;
+      border:1px solid #ccc;
+    }
+    .details ul{
+      list-style:disc inside;
+      margin:0;
+      padding-left:6px;
+    }
+    .summary{
+      margin-top:8px;
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:8px;
+    }
+    table th, table td{
+      border:1px solid #999;
+      padding:8px;
+      text-align:left;
+      font-size:14px;
+    }
+    table th{
+      background:#f4f4f4;
+    }
+    @media (max-width:600px){
+      .bio{flex-direction:column;align-items:flex-start}
+      .photo{width:100px;height:120px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="color:white; -webkit-text-stroke:1px black;">Curriculum Vitae</h1>
+    <audio id="lagu" loop>
+  <source src="lagu.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  document.body.addEventListener('click', function() {
+    document.getElementById('lagu').play();
+  });
+</script>
+  </header>
+
+  <section>
+    <h2>Biodata Diri</h2>
+    <div class="bio">
+      <img src="Foto.jpg" style="width:150px; float:left; margin-right:10px;">
+      <div class="details">
+        <ul>
+          <li>Nama Lengkap : Prya Mitra</li>
+          <li>Nama Panggilan : Xander</li>
+          <li>NPM : 2515061059</li>
+          <li>TTL : Kejadian, 13 Januari 2007</li>
+          <li>Email : pryaamitraa@gmail.com</li>
+          <li>Alamat : Kampung Baru</li>
+          <li>No. HP : +62 856-9784-8834</li>
+          <li>Moto Hidup : Jangan Mati Sebelum Makan Arsy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rincian Singkat</h2>
+    <p class="summary">Halo, Disini saya ingin sedikit menjelaskan tentang diri saya. Saya disini ingin melamar di bagian Pemilik atau Owner, Skill yang saya miliki yaitu bisa datang dan menghilang begitu saja jadi saya sangat pas untuk posisi owner.</p>
+  </section>
+
+  <section>
+    <h2>Riwayat Pendidikan</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tahun</th>
+          <th>Institusi</th>
+          <th>Jurusan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2019 - 2022</td>
+          <td>SMP Negeri 3 Liwa</td>
+          <td>Tidak Ada Jurusan</td>
+        </tr>
+        <tr>
+          <td>2022 - 2025</td>
+          <td>SMK Negeri 1 Liwa</td>
+          <td>Teknik Komputer dan Jaringan</td>
+        </tr>
+        <tr>
+          <td>2025 - 2029</td>
+          <td>Universitas Lampung</td>
+          <td>Teknik Informatika</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Pengalaman Kerja</h2>
+    <ul>
+      <li>2025 - 2027 - Manager, PT. Mitra Las Abadi. Disini saya mendapatkan banyak pengalaman tentang pengelasan dan semacamnya saya juga jadi tau cara kerja las di dunia ini.</li>
+      <li>2027 - 2029 - Owner, PT. Mancing Amarah. Disini saya mendapatkan kemampuan khusus yaitu membuat orang lain marah dan merasa jengkel kepada saya, Tapi ada satu skill yang sangat saya banggakan. Yaitu, saya setiap pulang dari kerja selalu dapat pena gratis tidak tau darimana sepertinya ini Skill hebat?.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Keterampilan</h2>
+    <ul>
+      <li>Bisa mendapatkan pena darimana saja dan kapan saja</li>
+      <li>Menguasai Ke semua elemen Avatar</li>
+      <li>Menguasai Dunia dengan satu genggaman tangan</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Referensi</h2>
+    <p>Kalian bisa menghubungi saya melalui Email saya ataupun Nomor Telepon saya, Terima Kasih.</p>
+  </section>
+
+</body>
+</html>
